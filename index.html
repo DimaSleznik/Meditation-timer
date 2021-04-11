@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>timer</title>
+	<meta http-equiv="content-type" content="text/html" charset="utf-8" />
+</head>
+<body>
+	<div id="video-bg">
+		<video width="100%" height="auto" preload="auto" autoplay="autoplay"
+		loop="loop" >
+			<source src="sky.mp4" type="video/mp4"></source>
+		</video>
+	</div>
+
+
+
+
+
+<link rel="stylesheet" href="first-css.css"><div class="buttons">
+<input type="button" value="Перезапуск" id="reload" >
+<input type="button" name="" value="2 минуты" onclick="button_on(this)" class = 'button' min = '2'>
+<input type="button" name="" value="5 минуты" onclick="button_on(this)" class = 'button' min = '5'>
+<input type="button" name="" value="10 минуты" onclick="button_on(this)" class = 'button' min = '10'>
+</div>
+<audio controls>
+    <source src="sound/mm2.mp3" type="audio/mpeg"></audio>
+
+<div class="timer_block"><h1> 0:0 </h1></div>
+<p></p>
+
+<script src="script.js"></script>
+</body>
+</html>
